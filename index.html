@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+        <h2 id="date"></h2>
+        <div id="calendar">
+            <div id="empty"></div>
+            <div id="days">
+                <div id="col col-1">Sunday</div>
+                <div id="col col-2">Monday</div>
+                <div id="col col-3">STuesday</div>
+                <div id="col col-4">Wednesday</div>
+                <div id="col col-5">Thursday</div>
+                <div id="col col-6">Friday</div>
+                <div id="col col-7">Saturday</div>
+            </div>
+            <div id="times">
+                <div class="row row-1">12AM</div>
+                <div class="row row-2">1AM</div>
+                <div class="row row-3">2AM</div>
+                <div class="row row-4">3AM</div>
+                <div class="row row-5">4AM</div>
+                <div class="row row-6">5AM</div>
+                <div class="row row-7">6AM</div>
+                <div class="row row-8">7AM</div>
+                <div class="row row-9">8AM</div>
+                <div class="row row-10">9AM</div>
+                <div class="row row-11">10AM</div>
+                <div class="row row-12">11AM</div>
+                <div class="row row-13">12AM</div>
+                <div class="row row-14">1PM</div>
+                <div class="row row-15">2PM</div>
+                <div class="row row-16">3PM</div>
+                <div class="row row-17">4PM</div>
+                <div class="row row-18">5PM</div>
+                <div class="row row-19">6PM</div>
+                <div class="row row-20">7PM</div>
+                <div class="row row-21">8PM</div>
+                <div class="row row-22">9PM</div>
+                <div class="row row-23">10PM</div>
+                <div class="row row-24">11PM</div>
+            </div>
+            <div id="content">
+                <div id="1"></div>
+                <div id="2"></div>
+                <div id="3"></div>
+                <div id="4"></div>
+                <div id="5"></div>
+                <div id="6"></div>
+                <div id="7"></div>
+                <div id="8"></div>
+                <div id="9"></div>
+                <div id="10"></div>
+                <div id="11"></div>
+                <div id="12"></div>
+                <div id="13"></div>
+                <div id="14"></div>
+                <div id="15"></div>
+                <div id="16"></div>
+                <div id="17"></div>
+                <div id="18"></div>
+                <div id="19"></div>
+                <div id="20"></div>
+                <div id="21"></div>
+                <div id="22"></div>
+                <div id="23"></div>
+                <div id="24"></div>
+                <div id="25"></div>
+                <div id="26"></div>
+                <div id="27"></div>
+                <div id="28"></div>
+                <div id="29"></div>
+                <div id="30"></div>
+                <div id="31"></div>
+                <div id="32"></div>
+                <div id="33"></div>
+                <div id="34"></div>
+                <div id="35"></div>
+                <div id="36"></div>
+                <div id="37"></div>
+                <div id="38"></div>
+                <div id="39"></div>
+                <div id="40"></div>
+                <div id="41"></div>
+                <div id="42"></div>
+                <div id="43"></div>
+                <div id="44"></div>
+                <div id="45"></div>
+                <div id="46"></div>
+                <div id="47"></div>
+                <div id="48"></div>
+                <div id="49"></div>
+                <div id="50"></div>
+                <div id="51"></div>
+                <div id="52"></div>
+                <div id="53"></div>
+                <div id="54"></div>
+                <div id="55"></div>
+                <div id="56"></div>
+                <div id="57"></div>
+                <div id="58"></div>
+                <div id="59"></div>
+                <div id="60"></div>
+                <div id="61"></div>
+                <div id="62"></div>
+                <div id="63"></div>
+                <div id="64"></div>
+                <div id="65"></div>
+                <div id="66"></div>
+                <div id="67"></div>
+                <div id="68"></div>
+                <div id="69"></div>
+                <div id="70"></div>
+                <div id="71"></div>
+                <div id="72"></div>
+                <div id="73"></div>
+                <div id="74"></div>
+                <div id="75"></div>
+                <div id="76"></div>
+                <div id="77"></div>
+                <div id="78"></div>
+                <div id="79"></div>
+                <div id="80"></div>
+                <div id="81"></div>
+                <div id="82"></div>
+                <div id="83"></div>
+                <div id="84"></div>
+                <div id="85"></div>
+                <div id="86"></div>
+                <div id="87"></div>
+                <div id="88"></div>
+                <div id="89"></div>
+                <div id="90"></div>
+                <div id="91"></div>
+                <div id="92"></div>
+                <div id="93"></div>
+                <div id="94"></div>
+                <div id="95"></div>
+                <div id="96"></div>
+                <div id="97"></div>
+                <div id="98"></div>
+                <div id="99"></div>
+                <div id="100"></div>
+                <div id="101"></div>
+                <div id="102"></div>
+                <div id="103"></div>
+                <div id="104"></div>
+                <div id="105"></div>
+                <div id="106"></div>
+                <div id="107"></div>
+                <div id="108"></div>
+                <div id="109"></div>
+                <div id="110"></div>
+                <div id="111"></div>
+                <div id="112"></div>
+                <div id="113"></div>
+                <div id="114"></div>
+                <div id="115"></div>
+                <div id="116"></div>
+                <div id="117"></div>
+                <div id="118"></div>
+                <div id="119"></div>
+                <div id="120"></div>
+                <div id="121"></div>
+                <div id="122"></div>
+                <div id="123"></div>
+                <div id="124"></div>
+                <div id="125"></div>
+                <div id="126"></div>
+                <div id="127"></div>
+                <div id="128"></div>
+                <div id="129"></div>
+                <div id="130"></div>
+                <div id="131"></div>
+                <div id="132"></div>
+                <div id="133"></div>
+                <div id="134"></div>
+                <div id="135"></div>
+                <div id="136"></div>
+                <div id="137"></div>
+                <div id="138"></div>
+                <div id="139"></div>
+                <div id="140"></div>
+                <div id="141"></div>
+                <div id="142"></div>
+                <div id="143"></div>
+                <div id="144"></div>
+                <div id="145"></div>
+                <div id="146"></div>
+                <div id="147"></div>
+                <div id="148"></div>
+                <div id="149"></div>
+                <div id="150"></div>
+                <div id="151"></div>
+                <div id="152"></div>
+                <div id="153"></div>
+                <div id="154"></div>
+                <div id="155"></div>
+                <div id="156"></div>
+                <div id="157"></div>
+                <div id="158"></div>
+                <div id="159"></div>
+                <div id="160"></div>
+                <div id="161"></div>
+                <div id="162"></div>
+                <div id="163"></div>
+                <div id="164"></div>
+                <div id="165"></div>
+                <div id="166"></div>
+                <div id="167"></div>
+                <div id="168"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
